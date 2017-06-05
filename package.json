@@ -1,30 +1,32 @@
 {
-  "name": "vue-installer",
-  "version": "1.0.0",
-  "description": "vue component installer from github",
-  "main": "index.js",
-  "scripts": {
-    "test": "node ./test/test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yale8848/vue-installer.git"
-  },
-  "keywords": [
-    "vue",
-    "webpack",
-    "component",
-    "install"
-  ],
-  "author": "Yale",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yale8848/vue-installer/issues"
-  },
-  "homepage": "https://github.com/yale8848/vue-installer#readme",
-  "dependencies": {
-    "n-readlines": "^0.2.7",
-    "os-tmpdir": "^1.0.2",
-    "shelljs": "^0.7.7"
-  }
+    "name": "vue-installer",
+    "version": "0.0.4",
+    "description": "vue component installer from github",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yale8848/vue-installer.git"
+    },
+    "keywords": [
+        "vue",
+        "webpack",
+        "component",
+        "install"
+    ],
+    "author": "Yale <royal8848@163.com> (http://yale.ren) ",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yale8848/vue-installer/issues"
+    },
+    "homepage": "https://github.com/yale8848/vue-installer#readme",
+    "dependencies": {
+        "extend": "^3.0.1",
+        "git-clone-sync": "^0.1.2",
+        "n-readlines": "^0.2.7",
+        "os-tmpdir": "^1.0.2",
+        "shelljs": "^0.7.7"
+    }
 }
