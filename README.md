@@ -57,4 +57,5 @@ dafalut config:
  import Calendar from '@github/LLawlight/vue-calendar/src/components/Calendar'
 
 ```
+
 it will download https://github.com/LLawlight/LLawlight.git /src to 'src/components/LLawlight/LLawlight/src'
