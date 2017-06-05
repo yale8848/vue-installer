@@ -28,6 +28,8 @@ module.exports = {
 - webpack.dev.conf.js add plugin
 
 ```
+    var vueInstaller = require('vue-installer');
+   
     plugins: [
         ...
         new vueInstaller()
